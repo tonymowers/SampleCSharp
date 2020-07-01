@@ -1,6 +1,6 @@
 
-SimpleCSharpProject/obj/
+**/obj/
 
-SimpleCSharpProject/bin/Debug/netcoreapp3.1/
+**/bin/Debug/netcoreapp3.1/
 
 .idea/

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCSharpProject", "SimpleCSharpProject\SimpleCSharpProject.csproj", "{658C2657-8CBD-405F-87AA-A2D04F5E143E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCSharpTests", "SimpleCSharpTests\SimpleCSharpTests.csproj", "{363ABD7F-4E12-4993-AB52-56E9E46A7260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{658C2657-8CBD-405F-87AA-A2D04F5E143E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{658C2657-8CBD-405F-87AA-A2D04F5E143E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{658C2657-8CBD-405F-87AA-A2D04F5E143E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363ABD7F-4E12-4993-AB52-56E9E46A7260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363ABD7F-4E12-4993-AB52-56E9E46A7260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363ABD7F-4E12-4993-AB52-56E9E46A7260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363ABD7F-4E12-4993-AB52-56E9E46A7260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
