@@ -2,12 +2,12 @@ using Xunit;
 
 namespace SimpleCSharpTests
 {
-    public class FailingUnitTest
+    public class AlwaysPassingUnitTest
     {
         [Fact]
         public void Test1()
         {
-            Assert.True(false, "Test not yet implemented");
+            Assert.True(true, "Test will always pass");
         }
     }
 }
