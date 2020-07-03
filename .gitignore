@@ -4,3 +4,5 @@
 **/bin/Debug/netcoreapp3.1/
 
 .idea/
+
+*.user
