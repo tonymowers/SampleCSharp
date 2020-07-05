@@ -5,18 +5,16 @@ namespace SimpleCSharpTests.BizDomain
 {
     public class StringUtilityTest
     {
-
-        [Fact]
-        public void convert_first_letter_of_sentence_to_upper()
+        [Theory]
+        [InlineData("H","h")]
+        [InlineData("Hello","hello")]
+        [InlineData("","")]
+        [InlineData(" Hello", " hello")]
+        [InlineData(" Hello. Hello.", " hello. hello.")]
+        [InlineData(" Hello? Hello.", " hello? hello.")]
+        public void convert_first_letter_of_sentence_to_upper(string expected, string data)
         {
-            Assert.Equal("H",FirstLetterOfSentenceToUpper("h"));
-            Assert.Equal("Hello",FirstLetterOfSentenceToUpper("hello"));
-            Assert.Equal("",FirstLetterOfSentenceToUpper(""));
-            Assert.Null(FirstLetterOfSentenceToUpper(null));
-
-            Assert.Equal(" Hello", FirstLetterOfSentenceToUpper(" hello"));
-            Assert.Equal(" Hello. Hello.", FirstLetterOfSentenceToUpper(" hello. hello."));
-            Assert.Equal(" Hello? Hello.", FirstLetterOfSentenceToUpper(" hello? hello."));
+            Assert.Equal(expected,FirstLetterOfSentenceToUpper(data));
         }
         
     }
